@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>zNova Home Page</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      nav {
+        /* border: 2px solid black; */
+        width: 90%;
+        margin: 30px auto;
+        padding: 30px 80px;
+        height: 80px;
+        background-image: url(images/favicon.ico);
+        background-repeat: no-repeat;
+        background-position: 0 center;
+      }
+
+      nav ul li {
+        display: inline;
+      }
+
+      nav ul li a {
+        /* border: 1px solid black; */
+        /* background-color: #ff7e73; */
+        color: gray;
+        padding: 10px;
+        text-decoration: none;
+        margin-right: 20px;
+        font-family: "Inter", sans-serif;
+      }
+
+      nav ul li a:hover {
+        border-bottom: 1px solid #ff7e73;
+      }
+      .nav-mentor {
+        border: 1px solid white;
+        text-decoration: none;
+        padding: 10px 30px;
+        background-color: #ff7e73;
+        color: white;
+        border-radius: 8px;
+        font-family: "Inter", sans-serif;
+        position: relative;
+        left: 55%;
+        bottom: 130%;
+      }
+      .container {
+        width: 90vw;
+        height: 50vh;
+        margin: 50px auto;
+        /* border: 2px solid black; */
+        background-image: url(images/banner.png);
+        background-position: center right 60px;
+        background-repeat: no-repeat;
+        background-size: 50%;
+        /* float: right; */
+      }
+      .first-heading {
+        font-family: "Eczar", serif;
+        color: #ff7e73;
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-bottom: 40px;
+      }
+
+      .end-heading {
+        font-family: "Josefin Sans", sans-serif;
+        color: #776464;
+        font-weight: 150;
+        font-size: 30px;
+        font-style: normal;
+      }
+      .text {
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        width: 50%;
+        margin-bottom: 60px;
+      }
+
+      .our-course {
+        border: 1px solid white;
+        text-decoration: none;
+        padding: 15px 40px;
+        background-color: #ff7e73;
+        color: white;
+        border-radius: 8px;
+        font-family: "Inter", sans-serif;
+      }
+
+      .nav-mentor:hover {
+        color: lightgray;
+      }
+
+      .our-course:hover {
+        color: lightgray;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Totorials</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Road Map</a></li>
+      </ul>
+      <a class="nav-mentor" href="#">Talk to Mentor</a>
+    </nav>
+    <div class="container">
+      <h1 class="first-heading">
+        zNova
+        <span class="end-heading">Learning Hub</span>
+      </h1>
+      <p class="text">
+        Unlock your full-stack dev potential with our expert-led courses. <br />
+        Build, launch, and scale.
+      </p>
+      <a href="#" class="our-course">Our Course &rarr;</a>
+    </div>
+  </body>
+</html>
